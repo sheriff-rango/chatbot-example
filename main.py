@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "sk-eK-jJOKCKquYMk7ECptvYARbW32FuaVhx06vqt2MlpT3BlbkFJ5771D2CKJiDW7chBSQJqkrfTpnz3AgVbFHfvGlhsUA"
+API_KEY = "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"
 
 def get_chatbot_response(prompt):
     url = 'https://api.openai.com/v1/chat/completions'
