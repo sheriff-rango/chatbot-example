@@ -68,7 +68,8 @@ def get_transcription_response(file):
     }
 
     data = {
-        "model": "whisper-1"
+        "model": "whisper-1",
+        "language": "en"
     }
 
     # Open the audio file and send the request
